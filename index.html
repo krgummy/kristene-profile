@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bpmf+Huninn&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+
+	<link rel="stylesheet" href="style.css">
+	<title> Kristene's Page</title>
+</head>
+
+
+<body>
+
+	<header class = "header">
+		<h1>KRISTENE'S SPACE</h1>
+		<p class = "logline">Always with passion</p>
+	</header>
+
+	<main>
+		<!-- "about me" section has class "amcontainer" so that it is displayed as a flexbox -->
+		<section class = "amcontainer"> 
+			<img src = "pic.jpg" class = "am-img" alt="Image of myself"> <!-- placeholder image for now -->
+			<div class = "am-text">
+				<h2>ABOUT ME</h2>
+				<p>I am Kristene Airell A. Mendoza, a full-time <strong>3rd year Multimedia Studies student.</strong> I am an artist and a writer so naturally, one of my main goals in life is to create something worth seeing. I am not creating just because it's something I want to do but because creating is important. I believe that creativity and inspiration are cycles that should never end just because someone says it will. I aspire to be a <em>storyboard artist, a background artist, or a comic book artist.</em> Maybe if I'm lucky and good enough in the future, I could be all three at once.</p>
+			</div>
+		</section>
+
+		<section>
+			<h3>THINGS I LOVE</h3>
+			<ul class = "row-list">
+				<li>
+					<img src="animation.jpg" alt="Gravity Falls poster"> 
+					<span>Animation</span>
+				</li>
+				<li>
+					<img src="video-game.jfif" alt="BanG Dream! Rhythmn game poster">
+					<span>Video games</span>
+				</li>
+				<li>
+					<img src="manga.jfif" alt="Manga cover of Love Bullet">
+					<span>Comics/manga</span>
+				</li>
+				<li>
+					<img src="trinket.jpg" alt="Hirono figurine poster">
+					<span>Trinkets</span>
+				</li>
+			</ul>
+
+		</section>
+
+		<!-- unlike "about me" section, "passion projects" is a section first since I need to display the heading and body text without storing it in a flexbox -->
+		<section>
+			<h4>PASSION PROJECTS</h4>
+			<p>This section showcases comics I'm working on as passion projects.</p>
+			
+			<div class = "projectcontainer"> <!-- This is the flexbox for my passion projects -->
+				<div class = "project">
+					<img src = "Imaginary.jpg" class = "project-img" alt = "Cover comic for Imaginary Friends"> <!-- Placeholder images for comic images for the meantime -->
+					<div>
+						<h3>Imaginary Friends (2027)</h3>
+						<p>A short comic about ghosts befriending lonely children to accompany them until they are at an age where their imagination weakens due to reality.</p>
+					</div>
+				</div>
+
+				<div class = "project">
+					<img src = "Not.jpg" class = "project-img" alt = "Cover comic of Not 4 Sale">
+					<div>
+						<h3>NOT 4 SALE (2027)</h3>
+						<p>A short comic about a starving female artist who finds a beautiful painting of a woman at the museum except, it's weird the artwork's creator shares the same name as her.</p>
+					</div>
+				</div>
+
+				<div class = "project">
+					<img src = "Today.jpg" class = "project-img" alt = "Cover comic of Today, I hope I die">
+					<div>
+						<h3>Today, I hope I die (2027)</h3>
+						<p>A comic about six graduating high school students all trapped in the same nighmare..</p>
+					</div>
+				</div>
+			</div>
+
+			<a href="projects.xml" class="project-xml">View XML File</a>
+
+		</section>
+
+	</main>
+
+	<footer class = "footer">
+		<h1>CONTACT</h1>
+		<p class= "contact">Email: <a href="mailto:kamendoza10@up.edu.ph">kamendoza10@up.edu.ph</a></p>
+		<p class= "contact">Contact no.: 09615214021</p>
+
+	</footer>
+
+</body>
+</html>
