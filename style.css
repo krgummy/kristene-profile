@@ -108,6 +108,10 @@ section {
 	padding: 0;
 }
 
+.project-title {
+	min-height: 3em;
+}
+
 
 .project-img {
 	max-width: 100%;
