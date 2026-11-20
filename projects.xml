@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passion_projects>
+
+	<project>
+		<title>NOT 4 SALE</title>
+		<description>A short comic about a starving female artist who finds a beautiful painting of a woman at the museum except, it's weird the artwork's creator shares the same name as her.</description>
+		<date>2027</date>
+	</project>
+
+	<project>
+		<title>Imaginary Friends</title>
+		<description>A short comic about ghosts befriending lonely children to accompany them until they are at an age where their imagination weakens due to reality.</description>
+		<date>2027</date>
+	</project>
+
+	<project>
+		<title>One Last Time</title>
+		<description>A comic about six graduating high school students decide to explore an abandoned amusement park as their last adventure only for the amusement park to trap them inside.</description>
+		<date>2027</date>
+	</project>
+
+</passion_projects>

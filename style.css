@@ -1,0 +1,187 @@
+body {
+	background-color: #F9D5AA;
+	background-image: url("background.png");
+	margin: 4rem;
+	font-family: "Bpmf Huninn", "Inter", sans-serif;
+}
+
+header {
+	text-align: center;
+	font-size: 2rem;
+	color: #751F4E;
+	font-family: "Permanent Marker", "Brush Script MT", cursive;
+}
+
+p.logline {
+	text-align: center;
+	font-size: 2rem;
+	color: #751F4E;
+}
+
+p.contact {
+	text-align: center;
+	font-size: 1.25rem;
+	color: #751F4E;
+}
+
+
+p, li {
+	color: #F9D5AA;
+	font-size: 1.125em;
+}
+
+h2, h3, h4 {
+	color: #F9D5AA;
+	font-size: 2rem;
+	font-family: "Permanent Marker", "Brush Script MT", cursive;
+}
+
+section {
+	background-color:#6A0D83;
+	padding: 4rem;
+	margin: 0 auto;
+	border: 4px dashed #ee5d6c;
+	max-width: 75%;
+	width: 700px;
+}
+
+.amcontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.am-img {
+	width: 15rem;
+	height: auto;
+}
+
+.am-text {
+	width: auto;
+  	margin: 0;
+	padding: 0;
+  	border: none; 
+	text-align: justify;
+	flex: 1;
+}
+
+.row-list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 2.5rem;
+		justify-content: center;
+		list-style: none;
+		padding: 0;
+}
+
+.row-list li {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+}
+
+.row-list img {
+		width: 100%;
+		max-width: none;
+		object-fit: cover;
+		aspect-ratio: 2 / 3;
+		height: 15rem;
+}
+
+.projectcontainer {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
+.project-img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	aspect-ratio: 2 / 3;
+}
+
+.footer {
+	color:  #751F4E;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+
+	body {
+		padding: 1rem;
+		margin: 0 auto;
+	}
+
+	header {
+		font-size: 1.125rem;
+	}
+
+	p.logline {
+		font-size: 1.125rem;
+	}
+
+	p, li {
+		font-size: 1rem;
+	}
+
+	h2, h3, h4 {
+		font-size: 1.125rem;
+	}
+
+	section {
+		padding: 1rem;
+		width: 300px
+	}
+
+	.amcontainer {
+		flex-direction: column;
+	}
+
+
+	.am-text {
+		text-align: justify;
+		justify-content: center;
+	}
+
+	.row-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.row-list img {
+		height: 10rem;
+	}
+
+	
+	.projectcontainer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.project {
+		place-items: center;
+	}
+
+	.project-img {
+		width: 200px;
+	}
+
+}
+
+
+
