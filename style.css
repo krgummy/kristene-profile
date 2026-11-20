@@ -180,6 +180,7 @@ section {
 
 	.project {
 		place-items: center;
+		text-align: center;
 	}
 
 	.project-img {
